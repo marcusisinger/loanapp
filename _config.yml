@@ -58,7 +58,7 @@ features                                  :
 
   - title                                 : SwiftUI
     description                           : Utvecklad med SwiftUI, stödjer iPhone, iPad och Mac med M1 och uppåt.
-    fontawesome_icon_name                 : swift
+    fontawesome_icon_name                 : code
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
