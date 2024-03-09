@@ -36,21 +36,9 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Slipp manuella uträkningar och tabeller
-    description                           : Appen gör anrop till öppna API:er så att du slipper hålla reda på regelverken
+  - title                                 : Se in i framtiden
+    description                           : Spela upp hela förloppet för att se när du blir skuldfri
     fontawesome_icon_name                 : magic
-    
-  - title                                 : Maximera föräldrapenningen
-    description                           : Räkna enkelt ut hur mycket hushållet får ut varje månad för att kunna dryga ut er ledighet
-    fontawesome_icon_name                 : wallet
-
-  - title                                 : Skatte-beräkning
-    description                           : Räkna på nettolöner och kolla vad en löneökning innebär för hushållets ekonomi
-    fontawesome_icon_name                 : funnel-dollar
-
-  - title                                 : Dela lika
-    description                           : Få koll på er ekonomi i olika konstellationer så att ni kan fördela dagarna som ni vill
-    fontawesome_icon_name                 : balance-scale
 
   - title                                 : Inga dolda kostnader
     description                           : Ingen reklam, in-app köp eller abonnemang. Du äger appen för samma kostnad som en burk läsk.
