@@ -3,17 +3,17 @@ page_title                                : skuldfri                            
 
 # App Info
 ios_app_id                                : 6478467306                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : se                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : assets/Appicon~ios~marketing.png                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Skuldfri                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : #assets/Appicon~ios~marketing.png                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : #Skuldfri                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Räkna på ränta och amortering. Se när du blir skuldfri
+app_description                           : Interest and amortization calculator
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -36,16 +36,28 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Se in i framtiden
-    description                           : Spela upp hela förloppet för att se när du blir skuldfri
-    fontawesome_icon_name                 : magic
+  - title                                 : Skuldfri?
+    description                           : Skuldfri is a Swedish word meaning "debt-free"
+    fontawesome_icon_name                 : link
 
-  - title                                 : Inga dolda kostnader
-    description                           : Ingen reklam, in-app köp eller abonnemang. Du äger appen för samma kostnad som en burk läsk.
+  - title                                 : See the full picture
+    description                           : Uncover the true cost of your loans
+    fontawesome_icon_name                 : glasses
+
+  - title                                 : Interest rate
+    description                           : See how the interest rate affects your monthly expenditure
+    fontawesome_icon_name                 : percentage
+
+  - title                                 : Look ahead
+    description                           : Learn what will your loan cost you in 5 years? 10 years? 
+    fontawesome_icon_name                 : calendar-alt
+
+  - title                                 : No hidden costs
+    description                           : No adds, no in-app purchases. You own the app for the price of a soda.
     fontawesome_icon_name                 : file-signature
 
   - title                                 : SwiftUI
-    description                           : Utvecklad med SwiftUI, stödjer iPhone, iPad och Mac med M1 och uppåt.
+    description                           : Developed on an iPad with SwiftUI. Available on iPhone, iPad and Macs with apple silicon.
     fontawesome_icon_name                 : code
 
   - title                                 : # New Feature Title
