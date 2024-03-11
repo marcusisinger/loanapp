@@ -49,7 +49,7 @@ features                                  :
     fontawesome_icon_name                 : percentage
 
   - title                                 : Look ahead
-    description                           : Learn what will your loan cost you in 5 years? 10 years? 
+    description                           : Learn what you loans cost at any time in the future. See when you are skuldfri. 
     fontawesome_icon_name                 : calendar-alt
 
   - title                                 : No hidden costs
